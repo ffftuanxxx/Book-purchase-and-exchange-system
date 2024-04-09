@@ -1,0 +1,21 @@
+div.outborder {
+    position: relative;
+    height: 450px;
+    width: 800px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border: 3px dashed black;
+    border-radius: 5px;
+}
+div.left {
+    position: relative;
+    height: 450px;
+    width: 300px;
+    left: 250px;
+    top: 0px;
+    background-color: #50b485ad;
+    border: 1.5px dashed rgba(253, 10, 10, 0.767);
+}

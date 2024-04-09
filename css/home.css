@@ -1,0 +1,19 @@
+.test{
+    position:relative;
+    width:100%;
+    height: 200px;
+    border: 1px solid blue;
+    top: 50px;
+}
+.booktable{
+    border: 1px solid purple;
+}
+.bjimg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1000;
+    object-fit: cover;
+  }
