@@ -1,0 +1,57 @@
+/* Login模块的居中显示 */
+#title {
+    border: 1px solid white;
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10%;  /* 高度调整 */
+    background: #00000080;
+    padding: 20px 500px;
+
+    /* 将按钮的左右边框设置为圆弧 */
+    border-radius: 30px; 
+    /* 圆角弧度24px */
+    transition:0.2s;
+}
+
+/* Login标题的颜色控制 */
+
+#title h1 {
+    color: white;
+}
+
+/* 对输入窗口进行修改 */
+#title .form .item p {
+    font-size: 18px; /* 修改按钮文字的大小 */
+    color: white;
+}
+#title .form .item input{
+    width: 200px; /* 设置合适的宽度 */
+    border: 0; /* 首先将边界取消，方便下面修改下部边界宽度 */
+    border-bottom: 5px solid white; /* 将下边界进行修改，显示出横线效果 */
+    font-size: 18px; /* 将字体适当的变大加粗 */
+    background: #ffffff00; /* 将输入框设置为透明 */
+    color: white; /* 上面的文本颜色设置为白色，但是placeholder的颜色要单独设置 */
+    padding: 5px 10px; /* 为了placeholder的内容不是顶格显示，增加内部边界 */
+}
+
+/* 对button进行美化 */
+#title button {
+    /* 设置合适的按钮的长和宽 */
+    width: 150px; 
+    /* height: 30px; */
+    text-transform: uppercase;
+    border: 3px solid #FFFFFF; /* 设置按钮的边界粗细和颜色 */
+    margin-top: 18px; /* 设置合适的上部外框的宽度，增加与上面的password框的距离 */
+    text-align: center;
+    font-size: 18px; /* 修改按钮文字的大小 */
+    /* 设置按钮里面字体颜色 */
+    color: #FFFFFF;
+    line-height: 50px;
+    border-radius: 30px; /* 将按钮的左右边框设置为圆弧 */
+    cursor: pointer;
+    /* 圆角弧度24px */
+    transition:0.2s;
+    /* 设置按钮背景为透明 */
+    background:rgba(0,0,0,0);   
+}
